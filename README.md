@@ -8,17 +8,17 @@
 I am using [laravel sail](https://github.com/laravel/sail) for local development in WSL. 
 In Windows start Docker Desktop before and make sure that docker is running inside of Ubuntu in WSL
 
-    1. clone this repo
-    2. cd in folder and composer install
-    3. ./vendor/bin/sail up (or [configuring a shell alias](https://laravel.com/docs/10.x/sail#configuring-a-shell-alias) for sail)
-    4. optional but useful start VS Code with code .
-    5. open shell in vscode and create new .env file by copying the .env.example in a new file .env
-    6. generate new api key with sail php artisan key:generate
+1. clone this repo
+2. cd in folder and composer install
+3. ./vendor/bin/sail up (or [configuring a shell alias](https://laravel.com/docs/10.x/sail#configuring-a-shell-alias) for sail)
+4. optional but useful start VS Code with code .
+5. open shell in vscode and create new .env file by copying the .env.example in a new file .env
+6. generate new api key with sail php artisan key:generate
 
 ## Content
 
-    Based on the [Livewire Screencasts](https://livewire.laravel.com/screencasts/) I try to transcribe here the parts of the screencasts.
-    
+Based on the [Livewire Screencasts](https://livewire.laravel.com/screencasts/) I try to transcribe here the parts of the screencasts.
+
 
 ## License
 
